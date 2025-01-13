@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('bgff.jpg');
+    color: #000000;
+    background-size: cover;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Home Page */
+.hero {
+    text-align: center;
+    background: url('bgmi-hero.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 1.2em;
+}
+
+/* About Page */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Contact Us Page */
+.contact {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Deals Page */
+.deals {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.deal-item {
+    margin-bottom: 30px;
+}
+
+.deal-item h2 {
+    font-size: 2em;
+    color: #ff6600;
+}
+
+.deal-item p {
+    font-size: 1.2em;
+}
